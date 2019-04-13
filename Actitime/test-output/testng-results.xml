@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Suit execution startsSun Mar 03 11:33:11 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer script execution starts Sun Mar 03 11:33:17 IST 2019]]>
+    </line>
+    <line>
+      <![CDATA[Customer "Sahil Pandey" has been successfully created.]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer script is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11992" started-at="2019-03-03T06:03:11Z" finished-at="2019-03-03T06:03:23Z">
+    <groups>
+      <group name="Regression">
+        <method signature="TaskTest.createCustomer()[pri:0, instance:com.actitime.scripts.TaskTest@28feb3fa]" name="createCustomer" class="com.actitime.scripts.TaskTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="11992" started-at="2019-03-03T06:03:11Z" finished-at="2019-03-03T06:03:23Z">
+      <class name="com.actitime.scripts.TaskTest">
+        <test-method status="PASS" signature="preCondition(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.TaskTest@28feb3fa]" name="preCondition" is-config="true" duration-ms="5539" started-at="2019-03-03T11:33:11Z" finished-at="2019-03-03T11:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1:8080/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.actitime.scripts.TaskTest@28feb3fa]" name="createCustomer" duration-ms="6420" started-at="2019-03-03T11:33:17Z" description="verifying new customer" finished-at="2019-03-03T11:33:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer script execution starts Sun Mar 03 11:33:17 IST 2019]]>
+            </line>
+            <line>
+              <![CDATA[Customer "Sahil Pandey" has been successfully created.]]>
+            </line>
+            <line>
+              <![CDATA[createCustomer script is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+      </class> <!-- com.actitime.scripts.TaskTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
